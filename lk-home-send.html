@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>IQuick</title>
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+
+    <!-- Fonts and CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css" type='text/css'>
+    <link rel="stylesheet" href="/css/hover.css" type='text/css'>
+    <link rel="stylesheet" href="/css/mobile.css" type='text/css'>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/emerge.js"></script>
+  </head>
+  <body class="emerge lk-page">
+  <a id="menu-mobile-link" class="menu-toggle rounded visible-xs" href="#"><img src="/img/menu-black.svg" alt="img"></a>
+  <nav id="sidebar-wrapper" class="sidebar-wrapper">
+    <ul class="responsive-menu-ul-all">
+      <h1>My office</h1>
+      <li><a href="lk-home.html">Wallet</a></li>
+      <li><a href="lk-subscriptions.html">Subscriptions</a></li>
+      <li><a href="lk-merchant.html">Merchant</a></li>
+      <li><a href="lk-merchant-settings.html">Settings</a></li>
+      <li><a href="lk-merchant-products.html">Products</a></li>
+      <li><a href="lk-account.html">Account</a></li>
+      <li><a href="lk-security.html">Security</a></li>
+    </ul>
+  </nav>
+  <section class="sidebar">
+    <div class="sidebar-logo">
+      <a href="index.html"><img src="img/login-logo.svg" alt="logo"></a>
+    </div>
+    <div class="sidenar-menu">
+      <ul>
+        <li class="lk-menu-active"><a href="lk-home.html"><img src="img/lk-menu/wallet.svg" alt="">Wallet</a></li>
+        <li><a href="lk-subscriptions.html"><img src="img/lk-menu/subscriptios.svg" alt="">Subscriptions</a></li>
+        <li><a href="lk-merchant.html"><img src="img/lk-menu/merchant.svg" alt="">Merchant</a></li>
+        <li><a href="lk-account.html"><img src="img/lk-menu/account.svg" alt="">Account</a></li>
+        <li><a href="lk-security.html"><img src="img/lk-menu/security.svg" alt="">Security</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="lk-wrapper">
+    <div class="lk-header-menu">
+      <ul>
+        <li class="lk-header-menu-account"><span>Personal account</span></li>
+        <li class="lk-header-menu-user"><a href="#"><img src="img/user.png" alt="user"><span>Satoshi Nakamoto</span></a></li>
+        <li class="lk-header-menu-logout"><a href="login.html">Logout</a></li>
+      </ul>
+    </div>
+
+    <div class="lk-send">
+      <div class="lk-send-block">
+        <h1 class="lk-send-title-h">Your <span>Password</span></h1>
+        <form action="">
+          <input type="password" placeholder="Rassword" name="">
+          <a class="lk-send-recovery" href="#">Click to recovery</a>
+          <div class="lk-send-link">
+            <input type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+
+      <div class="lk-send-address">
+        <h1 class="lk-send-title-h"><span>Bitcoin</span> Address</h1>
+        <div class="lk-send-address-copy">
+          <a href="#"><span>1KL9BLA834LJnjkls3421JB45631bvfrNjk</span><img src="img/copy.svg" alt="img"></a>
+        </div>
+        <div class="lk-send-address-qr">
+          <img src="img/qr.png" alt="img">
+        </div>
+        <h2><span>BTC/USD</span> Converter</h2>
+        <form action="">
+          <ul>
+            <li class="lk-send-input"><input type="text" name=""><span>BTC</span></li>
+            <li class="lk-send-img"><img src="img/shuffle.svg" alt="img"></li>
+            <li class="lk-send-input"><input type="text" name=""><span>USD</span></li>
+          </ul>
+        </form>
+        <div class="lk-send-address-price">
+          <span>Price = $7534</span>
+        </div>
+      </div>
+
+      <div class="lk-send-finish">
+        <form action="">
+          <h1 class="lk-send-title-h"><span>Bitcoin</span> Address</h1>
+          <div class="lk-send-finish-input">
+            <input type="text" placeholder="Bitcoin Address" name="">
+          </div>
+          <h1 class="lk-send-title-h"><span>BTC/USD</span> Converter</h1>
+          <ul>
+            <li class="lk-send-input"><input type="text" name=""><span>BTC</span></li>
+            <li class="lk-send-img"><img src="img/shuffle.svg" alt="img"></li>
+            <li class="lk-send-input"><input type="text" name=""><span>USD</span></li>
+          </ul>
+          <h3><span>Transaction</span> Free</h3>
+          <h2>Regular</h2>
+          <div class="lk-send-link">
+            <input type="submit" value="Continue">
+          </div>
+        </form>
+      </div>
+    </div>      
+
+    <div class="lk-wrapper-footer">
+      <a href="#">Support</a>
+      <a class="lk-wrapper-footer-faq" href="#">FAQ</a>
+    </div>
+  </section>
+  <script src="/js/menu-mobile.js"></script>
+  </body>
+</html>

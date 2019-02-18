@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>IQuick</title>
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+
+    <!-- Fonts and CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css" type='text/css'>
+    <link rel="stylesheet" href="/css/hover.css" type='text/css'>
+    <link rel="stylesheet" href="/css/mobile.css" type='text/css'>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/emerge.js"></script>
+  </head>
+  <body class="emerge lk-page">
+  <a id="menu-mobile-link" class="menu-toggle rounded visible-xs" href="#"><img src="/img/menu-black.svg" alt="img"></a>
+  <nav id="sidebar-wrapper" class="sidebar-wrapper">
+    <ul class="responsive-menu-ul-all">
+      <h1>My office</h1>
+      <li><a href="lk-home.html">Wallet</a></li>
+      <li><a href="lk-subscriptions.html">Subscriptions</a></li>
+      <li><a href="lk-merchant.html">Merchant</a></li>
+      <li><a href="lk-merchant-settings.html">Settings</a></li>
+      <li><a href="lk-merchant-products.html">Products</a></li>
+      <li><a href="lk-account.html">Account</a></li>
+      <li><a href="lk-security.html">Security</a></li>
+    </ul>
+  </nav>
+  <section class="sidebar">
+    <div class="sidebar-logo">
+      <a href="index.html"><img src="img/login-logo.svg" alt="logo"></a>
+    </div>
+    <div class="sidenar-menu">
+      <ul>
+        <li><a href="lk-home.html"><img src="img/lk-menu/wallet.svg" alt="">Wallet</a></li>
+        <li><a href="lk-subscriptions.html"><img src="img/lk-menu/subscriptios.svg" alt="">Subscriptions</a></li>
+        <li class="lk-menu-active"><a href="lk-merchant.html"><img src="img/lk-menu/merchant.svg" alt="">Merchant</a></li>
+        <li><a href="lk-account.html"><img src="img/lk-menu/account.svg" alt="">Account</a></li>
+        <li><a href="lk-security.html"><img src="img/lk-menu/security.svg" alt="">Security</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="lk-wrapper">
+    <div class="lk-header-menu">
+      <ul>
+        <li class="lk-header-menu-account"><span>Personal account</span></li>
+        <li class="lk-header-menu-user"><a href="#"><img src="img/user.png" alt="user"><span>Satoshi Nakamoto</span></a></li>
+        <li class="lk-header-menu-logout"><a href="login.html">Logout</a></li>
+      </ul>
+    </div>
+
+    <div class="lk-merchant">
+      <div class="lk-merchant-menu">
+        <ul>
+          <li><a href="lk-merchant.html">Clients</a></li>
+          <li class="lk-merchant-menu-active"><a href="lk-merchant-settings.html">Settings</a></li>
+          <li><a href="lk-merchant-products.html">Products</a></li>
+        </ul>
+      </div>
+
+      <div class="lk-merchant-key">
+        <h1>Default key</h1>
+        <div class="lk-merchant-key-input">
+          <span>Secret key</span>
+          <input type="text" name="" value="ds345kljhg123ljhg541lhg1564lkjhvcjg234">
+          <a href="#"><img src="img/copy.svg" alt="img"></a>
+        </div>
+        <div class="lk-merchant-key-input">
+          <span>Public key</span>
+          <input type="text" name="" value="ds345kljhg123ljhg541lhg1564lkjhvcjg234">
+          <a href="#"><img src="img/copy.svg" alt="img"></a>
+        </div>
+        <div class="lk-merchant-key-link">
+          <a class="lmk-link-delete" href="#">Delete</a>
+          <a class="lmk-link-add" href="#">Add New Key</a>
+        </div>
+      </div>
+
+      <div class="lk-merchant-add">
+        <h1>App payment button</h1>
+        <div class="lk-merchant-add-form">
+          <form action="">
+            <input class="lk-merchant-input-oldpw" type="text" placeholder="Product name">
+            <div class="lmaf-group lmaf-group-left">
+              <input class="lmaf-input-pass" name="" type="text" placeholder="Amount USD">
+              <input class="lmaf-input-pass" name="" type="text" placeholder="Subscribe time (days)">
+              <a href="#"><img src="img/cloud.svg" alt="img">Product photo</a>
+            </div>
+            <div class="lmaf-group lmaf-group-right">
+              <textarea placeholder="About" name=""></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="lk-merchant-radio">
+        <form action="">
+          <label>
+            <input type="radio" name="coin" value="btc" checked>
+            <img src="img/btc.svg">
+          </label>
+          <label>
+            <input type="radio" name="coin" value="eth">
+            <img src="img/eth.svg">
+          </label>
+          <label>
+            <input type="radio" name="coin" value="dsh">
+            <img src="img/dsh.svg">
+          </label>
+        </form>
+        <h1>Tap to choose at least one coin</h1>
+      </div>
+
+      <div class="lk-merchant-code">
+        <div class="lk-merchant-code-panel">
+          <p><span class="code-blue">&lt;?php</span></p>
+          <p>$orderId = 12345;</p>
+          <p>$apiSecret = <span class="code-green">'your_api_key'</span>;</p>
+          <p>$callbackUrl =<span class="code-green">'http://yoursite.com/callback.php?id='</span>.$orderId;</p>
+          <p>$url = sprintf(</p>
+          <p><span class="code-green code-left-10">'https://api.recurant.io/v2/eth/payment/%s?token=%s'</span>,</p>
+          <p><span class="code-left-10">urlencode($callbackUrl),</span></p>
+          <p><span class="code-left-10">$apiSecret</span></p>
+          <p>);</p>
+          <p><span class="code-violet">if</span> ($response = file_get_contents($url)) {</p>
+          <p><span class="code-left-10">$data = json_decode($response);</span></p>
+          <p><span class="code-violet code-left-10">if</span> (<span class="code-violet">isset</span>($data->data->address)) {</p>
+          <p><span class="code-violet code-left-20">echo</span> $data->data->address;</p>
+          <p><span class="code-gray code-left-20">//save $data->data->invoice and keep it secret</span></p>
+          <p><span class="code-left-10">}</span></p>
+          <p>}</p>
+        </div>
+        <div class="lmc-link">
+          <a href="#">Copy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="lk-wrapper-footer">
+      <a href="#">Support</a>
+      <a class="lk-wrapper-footer-faq" href="#">FAQ</a>
+    </div>
+  </section>
+  <script src="/js/menu-mobile.js"></script>
+  </body>
+</html>
