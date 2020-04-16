@@ -228,7 +228,6 @@ html {
   display: inline;
 }
 .payment-block-header-time span {
-  position: absolute;
   background: #3f50a9;
   padding: 8px 18px;
   -webkit-border-radius: 50px;
