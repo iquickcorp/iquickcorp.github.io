@@ -229,13 +229,8 @@ html {
 }
 .payment-block-header-time span {
   position: absolute;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
   background: #3f50a9;
-  padding: 10px 15px;
+  padding: 8px 18px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   font-size: 19px;
