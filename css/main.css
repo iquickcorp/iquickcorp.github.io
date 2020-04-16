@@ -3516,6 +3516,6 @@ h3.roadmap-wrapper {
 .block-roadmap-current .block-roadmap-wrapper-future:before {
   background-image: url(/img/check-simple.png);
 }
-.block-roadmap-current .block-roadmap-wrapper-current:before {
+.block-roadmap-wrapper block-roadmap-wrapper-future:before {
   background-image: url(/img/check-current.png);
 }
