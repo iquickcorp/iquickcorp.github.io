@@ -293,7 +293,7 @@ h1.payment-block-content-cost span {
   display: inline-block;
   cursor: pointer;
   font-weight: bold;
-  padding: 6px 17px;
+  padding: 6px 30px;
   font-weight: 400;
   margin-bottom: 0;
   border-radius: 20px;
@@ -312,7 +312,7 @@ h1.payment-block-content-cost span {
 }
 .payment-block-content .radio-group {
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 50px;
   overflow: hidden;
   background: #bfc7cf;
   padding: 4px;
@@ -477,11 +477,9 @@ powered-by__copyright {
   text-align: center;
 }
 powered-by__info {
-  margin-top: 27px;
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 12px;
+  color: #798490;
   text-align: center;
-  color: #bcbcbc;
 }
 .powered-by__info-icon {
   display: inline-block;
@@ -489,7 +487,14 @@ powered-by__info {
   margin-right: 6px;
   width: 11px;
   height: 6px;
-  background: url(/img/how-work.png) center no-repeat;
+  background: url(/img/icon-key.svg) center no-repeat;
+}
+.powered-by__copyright {
+  margin-top: 27px;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  color: #bcbcbc;
 }
 .payment-block-content-link a {
   background: #3f50a9;
